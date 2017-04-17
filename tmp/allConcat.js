@@ -13,7 +13,7 @@ $(document).ready(function() {
   });
 });
 
-$(dicynent).ready(function() {
+$(document).ready(function(){
   $('#signup').submit(function(event){
     event.preventDefault();
     var email = $('#email').val();
